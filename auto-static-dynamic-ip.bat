@@ -17,7 +17,7 @@ set "router_ip=192.168.0.1"
 set /a timer=5
 set "script_path=%UserProfile%"
 ::Set install=0 if you don't want installation in the task scheduler
-set /a install=1
+set /a install=0
 ::Set uninstall=1 if you want to remove the task from the task scheduler
 set /a uninstall=0
 
